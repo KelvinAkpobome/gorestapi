@@ -6,7 +6,7 @@
 ## Steps:
 1. Fire up MySql server on your machine.
 2. Setup a database schema.
-3. Line 14 in model/connect.go to should be replaced:
+3. Line 14 in model/connect.model.go to should be replaced:
     * `db,err :=sql.Open("mysql", "\<username\>:\<password\>@tcp(localhost:\<port\>)/<database_name>")`
 
 
